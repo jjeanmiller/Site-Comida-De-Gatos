@@ -1,0 +1,49 @@
+main h1{
+color: blueviolet;
+}
+
+nav.menu-principal ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    background-color: #f1f1f1f1;
+
+}
+
+li a{
+    display: block;
+    color: #242424;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+nav.menu-dois ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #242424;
+    overflow: hidden;
+}
+
+li b{
+    display: inline;
+    float: left;
+    padding: 14px 16px ;
+    background-color: #242424;
+    color: white;
+}
+
+li b:hover{
+    background-color: #555;
+    color: white;
+}
+
+li b.boutleft{
+    float: right;
+}
